@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-80"/>
+	<meta name="author" content="Darin Joshua"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HAND CRICKET</h1>
+    </header>
+
+    <div class="page">
+        <h2>Click On BAT or BOWL to Start the Game</h2>
+        <form action="index.html">
+            <input type="button" value="BAT" class="but" id="bat" onclick="user_main(1)" />
+            <input type="button" value="BOWL" class="but" id="bowl" onclick="user_main(0)"/>
+        </form>
+    </div>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>One to Six Numbers, If you place the Same Number as the Computer then your OUT! Score more runs to WIN!!</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="O">
+            <img src="images/One.png" alt="One">
+        </div>
+        <div class="choice" id="T">
+            <img src="images/Two.png" alt="Two">
+        </div>
+        <div class="choice" id="Th">
+            <img src="images/Three.png" alt="Three">
+        </div>
+        <div class="choice" id="F">
+            <img src="images/Four.png" alt="Four">
+        </div>
+        <div class="choice" id="Fi">
+            <img src="images/Five.png" alt="Five">
+        </div>
+        <div class="choice" id="S">
+            <img src="images/Six.png" alt="Six">
+        </div>
+    </div>
+    <p id="action-msg">Make Your Move!!</p>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

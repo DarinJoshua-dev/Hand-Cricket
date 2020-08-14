@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    background-color:#22252c;
+}
+header{
+    background: white;
+    padding: 20px;
+}
+header>h1{
+    color: #22252c ;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+h2{
+    color: whitesmoke;
+    margin-bottom:30px;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+.but{
+background: none repeat scroll 0 0 #66A3D2;
+border-color: #FFFFFF #327CB5 #327CB5 #FFFFFF;
+border-radius: 10px 10px 10px 10px;
+border-style: solid;
+padding: 50px 72px;
+border-width: 1px;
+box-shadow: 1px 1px 3px #333333;
+color: #FFFFFF;
+cursor: pointer;
+font-family: "Asap", sans-serif;
+position: relative;
+font-weight: bold;
+text-align: center;
+text-shadow: 1px 1px 1px #000000;
+display: inline-block;
+margin-right: auto;
+margin-left: auto;
+font-size: 16px;
+}
+.page{
+text-align: center;
+margin-top: 50px;
+align-items: center;
+}
+.score-board{
+    margin: 20px auto;
+    border: 3px solid whitesmoke;
+    border-radius: 4px;
+    width: 250px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: "Asap", sans-serif;
+    position: relative;
+}
+.badge{
+    background: #E25840;
+    color: whitesmoke;
+    font-size:15px;
+    padding: 2px 10px;
+    font-family: "Asap", sans-serif;
+}
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#computer-label{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+.result{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.result >p{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Asap", sans-serif;
+}
+.choices{
+    margin-top: 50px;
+    text-align: center;
+}
+.choice{
+    border: 4px solid white;
+    border-width: 3px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 2px 1px rgba(223, 223, 223, 0.466);
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor:pointer;
+    background:blanchedalmond;
+}
+#action-msg{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
